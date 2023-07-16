@@ -1,0 +1,67 @@
+.service-container {
+
+
+    background-color: #1E222E;
+    padding-bottom: 60px;
+
+    .header {
+        padding: 0px 0px 48px;
+        padding: 0px;
+        text-align: center;
+        
+        .header-title {
+            letter-spacing: 1px;
+            font-weight: bold;
+            padding: 0px 16px;
+            line-height: 35px;
+            color: rgb(246, 246, 246);
+        }
+
+        .header-subtitle {
+            padding: 10px 16px;
+            line-height: 25px;
+            font-size: 18px;
+            font-weight: bold;
+            letter-spacing: 1px;
+            color: #e1e0e0;
+
+
+        }
+
+        padding-block: 30px;
+    }
+
+    .courses {
+
+        .course-div {
+
+          
+              color: #ffffff;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: center;
+            
+        }
+    }
+}
+
+@media  only Screen and (min-width : 1024px) {
+    
+    .service-container{
+
+        .header {
+             
+        
+                .header-title {
+                  
+                    padding: 23px 0px;
+                    font-size: 39px;
+                }
+        
+                
+        
+                padding-block: 30px;
+            }
+    }
+}
